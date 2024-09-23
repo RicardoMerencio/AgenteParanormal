@@ -1,0 +1,27 @@
+body {
+    background-color: #271F30;
+    color: white;
+    font-family: "Lora", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    margin: 0;
+}
+button {
+background-color: #7E6B8F;
+color: white;
+font-family: "Lora", serif;
+}
+
+.passo {
+    display:none;
+}
+
+.passo.ativo {
+    display: block;
+}
+main {
+    text-align:left;
+    max-width: 90%;
+}
